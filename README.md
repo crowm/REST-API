@@ -25,7 +25,7 @@ REQUEST
 
 
 
-REQUEST
+RESPONSE
 -------------------------
 
     {u'employees': [{u'active': True,

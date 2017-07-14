@@ -19,7 +19,7 @@ REQUEST
     import urllib2
 
     request = urllib2.Request('http://<SERVER_URL>/get/api/1.0/get/list/employees')
-    request.add_header("Authorization", "OAuth <AUTHENTIATION_TOKEN>")
+    request.add_header("Authorization", "OAuth <AUTH_TOKEN>")
     request = urllib2.urlopen(request)
     result = request.read()
 

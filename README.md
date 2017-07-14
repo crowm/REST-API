@@ -1,6 +1,25 @@
 REST-API
 ----
 
+
+
+
+AVAILABLE API
+----
+
+    • Product
+    • Project
+    • Task
+    • Employees
+    • Departments
+    • Job Positions
+    • Employee Leaves
+
+
+
+EMPLOYEE EXAMPLE
+----
+
 Fetch all employees using odoo REST REST-API.
 
 

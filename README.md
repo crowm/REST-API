@@ -8,28 +8,27 @@ Fetch all employees using odoo REST REST-API.
 API
 -------------------------
 
-URL     :  http://<SERVER_URL>/get/api/1.0/get/list/employees
-HEADER  :  {"Authorization", "OAuth <AUTHENTIATION_TOKEN>"} 
+    URL     :  http://<SERVER_URL>/get/api/1.0/get/list/employees
+    HEADER  :  {"Authorization", "OAuth <AUTHENTIATION_TOKEN>"}
 
 
 
 REQUEST
 -------------------------
 
-import urllib2
+    import urllib2
 
-request = urllib2.Request('http://<SERVER_URL>/get/api/1.0/get/list/employees')
-request.add_header("Authorization", "OAuth <AUTHENTIATION_TOKEN>")
-request = urllib2.urlopen(request)
-result = request.read()
+    request = urllib2.Request('http://<SERVER_URL>/get/api/1.0/get/list/employees')
+    request.add_header("Authorization", "OAuth <AUTHENTIATION_TOKEN>")
+    request = urllib2.urlopen(request)
+    result = request.read()
 
 
 
 REQUEST
 -------------------------
 
-
-{u'employees': [{u'active': True,
+    {u'employees': [{u'active': True,
                  u'city': False,
                  u'coach_id': False,
                  u'company_id': 1,

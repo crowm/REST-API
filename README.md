@@ -20,7 +20,7 @@ AVAILABLE API
 EMPLOYEE EXAMPLE
 ----
 
-Fetch all employees using odoo REST REST-API.
+Fetch all employees using odoo REST API.
 
 
 
@@ -28,7 +28,8 @@ API
 -------------------------
 
     URL     :  http://<SERVER_URL>/get/api/1.0/get/list/employees
-    HEADER  :  {"Authorization", "OAuth <AUTHENTIATION_TOKEN>"}
+    URL     :  http://<SERVER_URL>/get/api/1.0/get/employee/id/<EMPLOYEE_ID>
+    HEADER  :  {"Authorization", "OAuth <AUTH_TOKEN>"}
 
 
 
